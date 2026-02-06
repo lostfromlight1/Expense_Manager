@@ -3,6 +3,7 @@ package main.java.com.talent.expense_manager.model;
 import main.java.com.talent.expense_manager.model.enum_type.ExpenseType;
 
 public class Expense extends Transaction {
+
     private final ExpenseType type;
 
     public Expense(String id, String walletId, double amount, ExpenseType type) {
@@ -14,4 +15,13 @@ public class Expense extends Transaction {
         return type;
     }
 
+    @Override
+    public String getTransactionType() {
+        return "EXPENSE";
+    }
+
+    @Override
+    public double getSignedAmount() {
+        return -amount; // expense subtracts
+    }
 }
