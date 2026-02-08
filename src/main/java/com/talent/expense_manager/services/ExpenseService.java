@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-public class ExpenseService {
+public class    ExpenseService {
     private final TransactionService transactionService;
     private final WalletService walletService;
 

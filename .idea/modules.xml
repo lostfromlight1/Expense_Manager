@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Expense_Manager.iml" filepath="$PROJECT_DIR$/Expense_Manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Expense_ManagerCLI.iml" filepath="$PROJECT_DIR$/Expense_ManagerCLI.iml" />
     </modules>
   </component>
 </project>
